@@ -11,6 +11,7 @@
 		C519DD6A2C70EA5B00F9EDAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C519DD692C70EA5B00F9EDAB /* ContentView.swift */; };
 		C519DD6C2C70EA5C00F9EDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C519DD6B2C70EA5C00F9EDAB /* Assets.xcassets */; };
 		C519DD6F2C70EA5C00F9EDAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C519DD6E2C70EA5C00F9EDAB /* Preview Assets.xcassets */; };
+		C519DD812C70EAF400F9EDAB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C519DD802C70EAF400F9EDAB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C519DD692C70EA5B00F9EDAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C519DD6B2C70EA5C00F9EDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C519DD6E2C70EA5C00F9EDAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C519DD802C70EAF400F9EDAB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,12 @@
 		C519DD662C70EA5B00F9EDAB /* ThreadsClone */ = {
 			isa = PBXGroup;
 			children = (
+				C519DD7A2C70EAB700F9EDAB /* Utils */,
+				C519DD792C70EAA000F9EDAB /* Services */,
+				C519DD782C70EA8C00F9EDAB /* App */,
+				C519DD772C70EA8A00F9EDAB /* Core */,
+				C519DD762C70EA8700F9EDAB /* Extensions */,
+				C519DD752C70EA8300F9EDAB /* Model */,
 				C519DD672C70EA5B00F9EDAB /* ThreadsCloneApp.swift */,
 				C519DD692C70EA5B00F9EDAB /* ContentView.swift */,
 				C519DD6B2C70EA5C00F9EDAB /* Assets.xcassets */,
@@ -65,6 +73,73 @@
 				C519DD6E2C70EA5C00F9EDAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C519DD752C70EA8300F9EDAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C519DD762C70EA8700F9EDAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C519DD772C70EA8A00F9EDAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C519DD7E2C70EAC300F9EDAB /* Authentication */,
+				C519DD7C2C70EAC100F9EDAB /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C519DD782C70EA8C00F9EDAB /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C519DD792C70EAA000F9EDAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C519DD7A2C70EAB700F9EDAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C519DD7C2C70EAC100F9EDAB /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C519DD7E2C70EAC300F9EDAB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C519DD7F2C70EAE500F9EDAB /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C519DD7F2C70EAE500F9EDAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C519DD802C70EAF400F9EDAB /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C519DD812C70EAF400F9EDAB /* LoginView.swift in Sources */,
 				C519DD6A2C70EA5B00F9EDAB /* ContentView.swift in Sources */,
 				C519DD682C70EA5B00F9EDAB /* ThreadsCloneApp.swift in Sources */,
 			);
